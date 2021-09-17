@@ -1,0 +1,40 @@
+form{
+	padding: 20px;
+	width: 500px;
+	height: 500px;
+	margin-left: 500px;
+	margin-top: 50px;
+	border-radius: 20px;
+	background-color:rgba(253, 245, 230, 0.746);
+}
+body{
+	background-image: url(a.jpg);
+}
+#text{
+	height: 30px;
+	width: 300px;
+	border-radius: 5px;
+	border: none;
+}
+button{
+	background-color:antiquewhite;
+	border-radius: 10px;
+	font-size: 20pt;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 10px 25px;
+	border: none;
+	margin-left: 250px;
+	margin-top: 200px;
+	color: black;
+	cursor: pointer;
+}
+span{
+	color:red;
+}
+label{
+font-size: 15pt;
+}
+h1{
+	color: rgba(0, 119, 255, 0.801);
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	
+}
