@@ -13,7 +13,7 @@
 <!--PHP script start -->
 <?php
 
-	//definition of valuvariables
+	//definition of value variables
 		$name         = NULL;
 		$email        = NULL;
 		$number       = NULL;
@@ -34,12 +34,12 @@
 		$gendererr    = NULL;
 		$termserr     = NULL;
 
-	//bool to check if error exist
+	//bool variable to check if error exist
 		$error		  = false;
 
 
 	//if the form is submitted 
-	if( isset( $_POST['submit'] ) )
+	if( isset( $_POST['formsubmit'] ) )
 	{
 		
 		//Sanitization of user data
@@ -233,6 +233,10 @@
 
 	<body>
 		<form action="" method="POST">
+			<!--Hidden input to check form submitted -->
+
+			<input type="hidden" name="formsubmit">
+			
 			<!--First Name -->
 		
 			<label for="name" id="label">
@@ -381,7 +385,7 @@
 			
 			<!--Submit Button -->
 			
-			<button type="submit" name=submit>
+			<button type="submit">
 				Submit
 			</button>
 	
